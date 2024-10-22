@@ -1,0 +1,168 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2d85bb; /* Dark Blue */
+  color: #ADD8E6; /* Light Blue */
+}
+
+header {
+  background-color: #032B44;
+  color: white;
+  
+  text-align: center;
+  
+  
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  top: 0;
+  left: 0;
+  padding-top: 30px;
+  padding-right: 5px;
+  padding-bottom: 20px;
+  margin-top: 0;
+  z-index: 1000;
+  align-items: center;
+  
+  
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  margin-right: 20px;
+  margin-top: 30px;
+  padding-right: 120px;
+  padding-left: 58px;
+  padding-bottom: 20px;
+  
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #2d79a8;
+}
+
+/* Header Section */
+
+
+
+.form-container {
+  background-color: #04151b; /* Light Blue */
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin: 20px;
+  margin-left: 80px;
+  margin-right: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+
+}
+
+h1, h2 {
+  color: #032B44; /* Dark Blue */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.short-select {
+  width: 150px; /* Shorten select box */
+  padding: 5px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.short-input {
+  width: 200px; /* Shorten input boxes */
+  padding: 5px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  width: 150px;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #032B44; /* Dark Blue */
+  color: #ADD8E6; /* Light Blue */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1A1D23;
+}
+
+
+
+footer {
+  background-color: #032B44;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  clear: both;
+}
+.footer-right {
+  flex-basis: 40%;
+}
+
+.footer-right h3 {
+  margin-bottom: 10px;
+}
+
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-right li {
+  margin-bottom: 10px;
+}
+
+.footer-right a {
+  color: #ADD8E6;
+}
+
+.footer-right a:hover {
+  color: #67a7e4;
+}
+/* Responsive Design */
+
+/* Responsive Design */
+
+@media only screen and (max-width: 768px) {
+  /* Add responsive styles here */
+}
+
+@media only screen and (max-width: 480px) {
+  /* Add responsive styles here */
+}
+
+
